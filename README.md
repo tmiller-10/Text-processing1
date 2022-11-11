@@ -1,7 +1,5 @@
 # Text Analysis
-
-## Assigned: Tuesday, April 18, 2022
-## Due: Tuesday, April 26, 2022
+# This is a project that I have for my Website Portfolio https://tylermmiller.netlify.app
 
 After cloning this repository to your computer, please take the following steps:
 
