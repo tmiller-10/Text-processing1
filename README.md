@@ -1,5 +1,5 @@
 # Text Analysis
-# This is a project that I have for my Website Portfolio https://tylermmiller.netlify.app
+This is a project that I have for my Website Portfolio https://tylermmiller.netlify.app
 
 After cloning this repository to your computer, please take the following steps:
 
