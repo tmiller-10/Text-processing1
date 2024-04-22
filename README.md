@@ -1,22 +1,60 @@
-# Text Analysis
-This is a project that I have for my Website Portfolio https://tylermmiller.netlify.app
+# Text Analysis Project
 
-After cloning this repository to your computer, please take the following steps:
+Welcome to my Text Analysis project repository. Follow these steps to set up and run the project after cloning it to your local machine.
 
-- Follow the instructions on the Proactive Programmers web site for this project
-- Use the `cd` command to change into the directory for this repository.
-- Change into the program directory by typing `cd datauniquifier`.
-- Install the dependencies for the project by typing `poetry install`
-- Run the program with the correct input file by typing:
-  - Generate the text: `poetry run textanalysis --output-file text/generated_one.txt --generate`
-  - Analyze the text: `poetry run textanalysis --input-file text/input_one.txt --analyze`
-  - Please note that the program will not work unless you add the required source code
-  - You should also try to run the program with only the `--help` flag
-  - What happens when you run the program but specify an incorrect file?
-- Confirm that the program is producing the expected output
-- Remember that this program produces a graphical visualization that you will need to load and understand
-- When you commit to your GitHub repository, please use descriptive commit messages
-- Make sure that you try your program on all four inputs described in the `reflection.md` file
-- Make sure that you understand all of the console and graphical output created by `textanalysis`
-- Use a `docker run` command for your operating system to run GatorGrader
-- Provide all of the required responses in the `writing/reflection.md` file
+## Setup Instructions
+
+1. **Navigate to the project directory**:
+   - Change to the cloned repository directory: `cd path-to-cloned-repo`
+   - Then, move to the specific program directory: `cd datauniquifier`
+
+2. **Install Dependencies**:
+   - Run the command `poetry install` to install the required dependencies for this project.
+
+## Running the Program
+
+1. **Generate Analysis**:
+   - First, generate the necessary text file:
+     ```bash
+     poetry run textanalysis --output-file text/generated_one.txt --generate
+     ```
+   - Then, analyze the generated text file:
+     ```bash
+     poetry run textanalysis --input-file text/generated_one.txt --analyze
+     ```
+
+2. **Analyze Existing Text**:
+   - To analyze an existing text file, use the following command:
+     ```bash
+     poetry run textanalysis --input-file text/input_one.txt --analyze
+     ```
+
+   Upon successful execution, you should see the following output:
+
+ **Output**:
+
+## Here is how to run the program:
+
+
+### Generate Text Data:
+Use the following command to generate the text file:
+
+```
+poetry run textanalysis --output-file text/generated_one.txt --generate
+```
+```
+poetry run textanalysis --input-file text/input_one.txt --analyze
+```
+```
+ ✨ Let's characterize the file and its words!
+
+The input file contains 23 lines, including blank lines!
+The input file contains 19 lines, not including blank lines!
+The input file contains 5 paragraphs!
+The input file contains 118 unique words across all sets!
+The words that are found across all sets are: {'Make', 'to'}
+
+🖌 Saving the visualization in graphics/set-visualization.png
+
+🔬 Get ready, here is the analysis of the sets!
+```
